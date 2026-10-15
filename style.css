@@ -80,7 +80,7 @@ img {
 
 .menu-nav a:hover,
 .footer-socials a:hover {
-    color: #7257d8;
+    color: 6098B6;
 }
 
 .left-nav button {
@@ -88,14 +88,14 @@ img {
     border: 0;
     border-radius: 8px;
     color: #fff;
-    background: #7257d8;
+    background: #6098B6;
     font: inherit;
     cursor: pointer;
     transition: background 0.2s ease;
 }
 
 .left-nav button:hover {
-    background: #5b40bd;
+    background: #6098B6;
 }
 
 /* Hero section */
@@ -105,11 +105,19 @@ img {
     align-items: center;
     gap: 64px;
     padding: 96px 10%;
+    background-image: url('assets/images/fazra_bg.png'); 
+    background-size: cover;
+}
+
+.hero-content{
+    background-color: rgba(255,255,255,0.8);
+    padding:20px;
+    border-radius: 24px;
 }
 
 .hero-label {
     margin-bottom: 12px;
-    color: #7257d8;
+    color: #6098B6;
     font-size: 0.9rem;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -146,21 +154,21 @@ img {
 
 .btn-primary {
     color: #fff;
-    background: #7257d8;
+    background: #6098B6;
 }
 
 .btn-primary:hover {
-    background: #5b40bd;
-    border-color: #5b40bd;
+    background: #6098B6;
+    border-color: #6098B6;
 }
 
 .btn-secondary {
-    color: #7257d8;
+    color: #6098B6;
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background: #7257d8;
+    background: #6098B6;
 }
 
 .hero-image {
@@ -192,7 +200,7 @@ img {
 
 .about-content {
     max-width: 800px;
-    color: #626a78;
+    color: #6098B6;
 }
 
 /* Projects */
@@ -201,7 +209,7 @@ img {
 }
 
 .projects-hightlighted .section-heading span {
-    color: #626a78;
+    color: #6098B6;
 }
 
 .project-grid {
@@ -237,7 +245,7 @@ img {
 
 .project-info p:first-child {
     margin-bottom: 8px;
-    color: #7257d8;
+    color: #6098B6;
     font-size: 0.85rem;
     font-weight: 700;
 }
@@ -254,7 +262,7 @@ img {
 .project-link {
     display: inline-block;
     margin-top: 16px;
-    color: #7257d8;
+    color: #6098B6;
     font-weight: 700;
 }
 
